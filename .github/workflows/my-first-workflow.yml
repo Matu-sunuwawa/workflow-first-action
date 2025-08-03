@@ -8,3 +8,67 @@ jobs:
         run: echo "Hello World!"
       - name: Print goodbye
         run: echo "Done - bye!"
+
+
+# name: Test Project
+# on: push
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Get Codes
+#         uses: actions/checkouts@v3
+#       - name: Install NodeJS
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
+#       - name: Install dependencies
+#         run: ci
+#       - name: Run tests
+#         run: npm test
+
+
+# name: Deploy Projects
+# on: push
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Get Codes
+#         uses: actions/checkouts@v3
+#       - name: Install NodeJS
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
+#       - name: Install dependencies
+#         run: ci
+#       - name: Run tests
+#         run: npm test
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Get Codes
+#         uses: actions/checkouts@v3
+#       - name: Install NodeJS
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
+#       - name: Install dependencies
+#         run: ci
+#       - name: Build project
+#         run: npm run build
+#       - name: Deploy
+#         run: echo "Deploying..."
+
+
+
+
+
+
+
+
+
+
+
+
+        
